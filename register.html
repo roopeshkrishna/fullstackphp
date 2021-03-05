@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg-info" style="position:fixed;width: 100%;height:80px;z-index: 1;">
+        <div class="row text-white">
+            <div class="col-md-6 col-9 p-3 pl-5">
+                <h2>Sign up</h2>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div style="width: 100%;">
+            <div class="row align-items-center" style="margin-left:400px;">
+                <form action="register.php" method="post" style="margin-top: 100px; width: 400px;">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Enter Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Mobile Number</label>
+                        <input type="number" class="form-control" name="mobile" placeholder="Enter Mobile Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Enter Password" required>
+                    </div>
+
+                    
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <a class="btn btn-primary" href="login.php" role="button">Cancel</a>
+
+                    
+                </form>
+                
+            </div>
+        </div>
+
+    </section>
+    <footer class="bg-info mt-5" style= "height: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-white">
+                    <p>About us</p>
+                    
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
